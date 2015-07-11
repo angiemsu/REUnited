@@ -14,6 +14,8 @@ import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.ActionBar.TabListener;
 import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -50,7 +52,12 @@ public class MainActivity extends FragmentActivity  {
 	private int lastErrorCode = -1;
 	
 	private Context context = null;
-	
+
+
+    private SensorManager mSensorManager;
+    private Sensor mAccelerometer;
+    private ShakeDetector mShakeDetector;
+
 	public Handler handler = new Handler() {
 		public void handleMessage(Message msg) {
 			Bundle bundle = msg.getData();
@@ -63,12 +70,43 @@ public class MainActivity extends FragmentActivity  {
 		}
 	};
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Add the following line to register the Session Manager Listener onResume
+        mSensorManager.registerListener(mShakeDetector, mAccelerometer,    SensorManager.SENSOR_DELAY_UI);
+    }
+
+    @Override
+    public void onPause() {
+        // Add the following line to unregister the Sensor Manager onPause
+        mSensorManager.unregisterListener(mShakeDetector);
+        super.onPause();
+    }
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
 		context = this;
+
+        mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        mAccelerometer = mSensorManager
+                .getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        mShakeDetector = new ShakeDetector(new ShakeDetector.OnShakeListener(){
+
+            @Override
+            public void onShake() {
+                /*
+                 * The following method, "handleShakeEvent(count):" is a stub //
+                 * method you would use to setup whatever you want done once the
+                 * device has been shook.
+                 */
+                Log.v("shake", "the phone shakes");
+                Toast.makeText(getApplicationContext(), "Shake", 500).show();
+            }
+        });
 		
 		hkwireless.registerHKWirelessControllerListener(new HKWirelessListener(){
 

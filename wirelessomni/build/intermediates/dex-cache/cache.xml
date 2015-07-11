@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\SU_ANGE\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\Thomas Scanlan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\SU_ANGE\AndroidStudioProjects\wirelessomni\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-de59043b1b99144bcbacb9de91310332de80747f.jar" />
+        <dex dex="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b7dfa16b1188303825861de5e09366b19f874a8d.jar" />
     </item>
     <item
-        jar="C:\Users\SU_ANGE\AndroidStudioProjects\wirelessomni\app\libs\HKWirelessHD.jar"
+        jar="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\libs\HKWirelessHD.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="dde38a49d2eca47b7adfe6ee5f6b8067f817af4e">
-        <dex dex="C:\Users\SU_ANGE\AndroidStudioProjects\wirelessomni\app\build\intermediates\pre-dexed\debug\HKWirelessHD-3abced10fcdb616f9a80988d38410f09414e9147.jar" />
+        <dex dex="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\HKWirelessHD-ad0759ed7711f8c6b8205875c5f108e0e7b830ea.jar" />
     </item>
 
 </items>

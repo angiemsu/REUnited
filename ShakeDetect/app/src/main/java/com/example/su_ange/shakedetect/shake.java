@@ -7,6 +7,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class shake extends ActionBarActivity {
@@ -35,7 +36,7 @@ public class shake extends ActionBarActivity {
                  * method you would use to setup whatever you want done once the
                  * device has been shook.
                  */
-                System.out.print("shaking");
+                Toast.makeText(getApplicationContext(), "shaking", Toast.LENGTH_SHORT).show();
             }
         });
     }
