@@ -1,0 +1,32 @@
+  <html><script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script>google.load('visualization', '1', {packages: ['corechart', 'bar']});
+google.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['City', '07/11/2015 DJ Hyped',],
+        ['Shake It Off, Taylor Swift', 10000],
+        ['Daft Punk', 13590],
+        ['One Republic Remix', 8600],
+        ['Turn Down for What', 1500]
+      ]);
+
+      var options = {
+        title: 'Popularity of songs at Hyped',
+        chartArea: {width: '50%'},
+        hAxis: {
+          title: 'Number of shakes',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Songs'
+        }
+      };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }</script>
+  <div id="chart_div"></div></html>
+      
