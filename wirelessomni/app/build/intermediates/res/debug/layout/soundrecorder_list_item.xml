@@ -38,4 +38,4 @@
         android:layout_below="@id/sound_img"
         android:background="#d8a4a3" />
     
-</RelativeLayout><!-- From: file:/C:/Users/SU_ANGE/AndroidStudioProjects/wirelessomni/app/src/main/res/layout/soundrecorder_list_item.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/layout/soundrecorder_list_item.xml -->

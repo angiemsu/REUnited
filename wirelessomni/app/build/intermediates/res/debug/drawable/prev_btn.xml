@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/pre_press" />
     <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/pre_press" />
     <item android:state_focused="false" android:drawable="@drawable/pre_normal" />
-</selector><!-- From: file:/C:/Users/SU_ANGE/AndroidStudioProjects/wirelessomni/app/src/main/res/drawable/prev_btn.xml -->
+</selector><!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/drawable/prev_btn.xml -->
