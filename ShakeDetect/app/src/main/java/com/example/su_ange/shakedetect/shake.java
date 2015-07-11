@@ -36,7 +36,17 @@ public class shake extends ActionBarActivity {
                  * method you would use to setup whatever you want done once the
                  * device has been shook.
                  */
+<<<<<<< HEAD
                 Toast.makeText(getApplicationContext(), "shaking", Toast.LENGTH_SHORT).show();
+=======
+                Context context = getApplicationContext();
+                CharSequence text = "shaking!";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context,text,duration);
+                toast.show();
+
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907
             }
         });
     }

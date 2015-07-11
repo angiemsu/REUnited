@@ -4,4 +4,8 @@
     <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/refresh_press" />
     <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/refresh_press" />
     <item android:state_focused="false" android:drawable="@drawable/refresh_normal" />
+<<<<<<< HEAD
 </selector><!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/drawable/refresh_btn.xml -->
+=======
+</selector><!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/drawable/refresh_btn.xml -->
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907

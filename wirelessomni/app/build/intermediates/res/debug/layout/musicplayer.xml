@@ -80,4 +80,8 @@
         android:layout_marginBottom="2dp"
         android:background="#898989" />
 
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/layout/musicplayer.xml -->
+=======
+</RelativeLayout><!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/layout/musicplayer.xml -->
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907

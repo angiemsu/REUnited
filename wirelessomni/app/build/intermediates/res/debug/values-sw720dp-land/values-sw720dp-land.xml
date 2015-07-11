@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values-sw720dp-land/dimens.xml -->
+=======
+    <!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values-sw720dp-land/dimens.xml -->
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907
     <eat-comment/>
     <dimen name="activity_horizontal_margin">128dp</dimen>
 </resources>

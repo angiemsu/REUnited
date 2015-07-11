@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/colors.xml -->
+=======
+    <!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/colors.xml -->
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907
     <eat-comment/>
     <color name="black">#000000</color>
     <color name="blue">#6EA5E5</color>
@@ -19,11 +23,19 @@
     <color name="translucent">#292726</color>
     <color name="transparent">#00000000</color>
     <color name="white">#FFFFFF</color>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/strings.xml -->
+=======
+    <!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/strings.xml -->
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">wirelessomni</string>
@@ -35,7 +47,11 @@
     <string name="sound_name">Name</string>
     <string name="sound_recorder">Sound recoder</string>
     <string name="sound_time">Time</string>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Thomas%20Scanlan/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/styles.xml -->
+=======
+    <!-- From: file:/C:/Users/SU_ANGE/Documents/GitHub/REUnited/wirelessomni/app/src/main/res/values/styles.xml -->
+>>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
