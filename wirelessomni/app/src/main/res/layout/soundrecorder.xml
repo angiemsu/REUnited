@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/singleSound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+            android:id="@+id/sound_album"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/soundrecorder" />
+        
+        <TextView
+            android:id="@+id/sound_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sound_album"
+            android:layout_marginLeft="5.0dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/sound_name"/>
+        
+        <TextView
+            android:id="@+id/sing_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sound_name"
+            android:layout_alignLeft="@id/sound_name"
+            android:layout_marginTop="5dp"
+            android:text="@string/sound_time"/>
+        
+        <View
+            android:id="@+id/division1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_below="@id/sound_album"
+            android:background="#676767" />
+
+    </RelativeLayout> 
+    
+    <ListView
+        android:id="@+id/sound_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/singleSound"
+        android:layout_marginBottom="50dp" >
+    </ListView>
+    
+    <RelativeLayout
+        android:id="@+id/handle_btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        
+        <Button
+            android:id="@+id/record_btn"
+            android:layout_width="85dp"
+            android:layout_height="50dp" 
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="Record"  />
+
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/record_btn"
+            android:layout_marginLeft="10dp"
+            android:text="Play"  />
+
+        <Button
+            android:id="@+id/stop_btn"
+            android:layout_width="85dp"
+            android:layout_height="50dp" 
+            android:layout_toRightOf="@id/play_btn"
+            android:layout_marginLeft="10dp"
+            android:text="Stop"   />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/division2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_above="@id/handle_btnlayout"
+        android:layout_marginBottom="2dp"
+        android:background="#898989" />
+
+</RelativeLayout>

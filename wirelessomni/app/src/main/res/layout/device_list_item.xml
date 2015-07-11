@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"        
+    android:layout_height="wrap_content"
+    android:id="@+id/device_list_item"> 
+    
+    <ImageView android:id="@+id/device_img" 
+        android:layout_width="50dp" 
+        android:layout_height="50dp" 
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/music" />
+           
+    <TextView android:id="@+id/device_name" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/device_img"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" 
+        android:textSize="35px" />
+    
+    <CheckBox
+        android:id="@+id/select"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:checked="false" />
+    
+    <View
+        android:id="@+id/division1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/device_img"
+        android:background="#d8a4a3" />
+    
+</RelativeLayout>

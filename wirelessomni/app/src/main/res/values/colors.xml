@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ED0404</color>
+    <color name="blue">#6EA5E5</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#292726</color>
+    <color name="main_screen_bg">#808080</color>
+    <color name="sub_screen_bg">#f6f1ea</color>
+    <color name="title_color">#d72c26</color>
+    <color name="green">#57a350</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="border_outside_color">#FFFF0000</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="top_name_color">#313131</color>
+    <color name="item_line">#ded8d2</color>
+    <color name="frame_color">#ded8d2</color>
+
+</resources>
