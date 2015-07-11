@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"        
+    android:layout_height="wrap_content"
+    android:id="@+id/soundrecorder_list_item"> 
+    
+    <ImageView android:id="@+id/sound_img" 
+        android:layout_width="50dp" 
+        android:layout_height="50dp" 
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/music_item" />
+    
+    <RelativeLayout
+        android:id="@+id/sound_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sound_img"
+        android:layout_marginLeft="5dp" >
+    
+        <TextView android:id="@+id/sound_title" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" 
+            android:textSize="35px" />
+        
+        <TextView android:id="@+id/sound_time" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sound_title"
+            android:layout_marginTop="6dp" 
+            android:textSize="26px" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/division1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/sound_img"
+        android:background="#d8a4a3" />
+    
+</RelativeLayout>

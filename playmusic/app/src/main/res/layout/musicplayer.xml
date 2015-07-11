@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/singleSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+            android:id="@+id/music_album"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/music" />
+        
+        <TextView
+            android:id="@+id/sing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/music_album"
+            android:layout_marginLeft="5.0dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/sing_name"/>
+        
+        <View
+            android:id="@+id/division1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_below="@id/music_album"
+            android:background="#676767" />
+
+    </RelativeLayout> 
+    
+    <ListView
+        android:id="@+id/music_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/singleSong"
+        android:layout_marginBottom="50dp" >
+    </ListView>
+    
+    <RelativeLayout
+        android:id="@+id/handle_btnlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        
+        <ImageButton
+            android:id="@+id/previous_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/music_btn_bg"
+            android:src="@drawable/prev_btn" />
+      
+        <ImageButton
+            android:id="@+id/play_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/music_btn_bg"
+            android:src="@drawable/play_btn"  />
+
+        <ImageButton
+            android:id="@+id/next_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_alignParentRight="true"
+            android:background="@drawable/music_btn_bg"
+            android:src="@drawable/next_btn"   />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/division2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_above="@id/handle_btnlayout"
+        android:layout_marginBottom="2dp"
+        android:background="#898989" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\libs\HKWirelessHD.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="dde38a49d2eca47b7adfe6ee5f6b8067f817af4e">
+        <dex dex="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\HKWirelessHD-001d4d033e4b37ec81840b81105ea21021d0670d.jar" />
+    </item>
+    <item
+        jar="C:\Users\SU_ANGE\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-de59043b1b99144bcbacb9de91310332de80747f.jar" />
+    </item>
+
+</items>

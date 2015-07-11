@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wirelessomni</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="device_list">Device list</string>
+    <string name="music_player">Music player</string>
+    <string name="sound_recorder">Sound recoder</string>
+    <string name="sing_name">Name</string>
+    <string name="sound_name">Name</string>
+    <string name="sound_time">Time</string>
+    <string name="device_infor">Device information</string>
+
+</resources>
