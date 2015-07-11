@@ -4,6 +4,7 @@
     <facet type="java-gradle" name="Java-Gradle">
       <configuration>
         <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
+        <option name="BUILDABLE" value="false" />
       </configuration>
     </facet>
   </component>
@@ -12,12 +13,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
     </content>
-<<<<<<< HEAD
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
-=======
     <orderEntry type="inheritedJdk" />
->>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
-

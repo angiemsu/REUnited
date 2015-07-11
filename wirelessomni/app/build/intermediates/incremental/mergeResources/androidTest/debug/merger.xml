@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main"><source path="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\src\androidTest\res"/><source path="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\build\generated\res\rs\androidTest\debug"/><source path="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\build\generated\res\generated\androidTest\debug"/></dataSet><mergedItems/></merger>
-=======
 <merger version="3"><dataSet config="main"><source path="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\src\androidTest\res"/><source path="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\generated\res\rs\androidTest\debug"/><source path="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\generated\res\generated\androidTest\debug"/></dataSet><mergedItems/></merger>
->>>>>>> 48ba880d8d0aaf10ad3e18161fb41ec9e14c4907

@@ -2,18 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Thomas Scanlan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\libs\lib\json_simple-1.1.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b7dfa16b1188303825861de5e09366b19f874a8d.jar" />
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\json_simple-1.1-5b4fa83ced30a31a889b2b1ce1aad7acf211bdfe.jar" />
     </item>
     <item
-        jar="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\libs\HKWirelessHD.jar"
+        jar="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\libs\HKWirelessHD.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="dde38a49d2eca47b7adfe6ee5f6b8067f817af4e">
-        <dex dex="C:\Users\Thomas Scanlan\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\HKWirelessHD-ad0759ed7711f8c6b8205875c5f108e0e7b830ea.jar" />
+        <dex dex="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\HKWirelessHD-001d4d033e4b37ec81840b81105ea21021d0670d.jar" />
+    </item>
+    <item
+        jar="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\libs\jEN.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="2b63c21126167fc877a9d4c53a1581bfa49b60f3">
+        <dex dex="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\jEN-2ff33ce04bcec8be4d5f8a29d41fd70b29efb1c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\SU_ANGE\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\SU_ANGE\Documents\GitHub\REUnited\wirelessomni\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-de59043b1b99144bcbacb9de91310332de80747f.jar" />
     </item>
 
 </items>
